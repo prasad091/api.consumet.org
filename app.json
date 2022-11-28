@@ -4,7 +4,7 @@
     "website": "https://consumet.org",
     "repository": "https://github.com/consumet/consumet-api",
     "logo": "https://consumet.org/images/consumetlogo.png",
-    "keywords": ["node", "fastify", "mongodb", "anime", "movies", "books", "manga", "api"],
+    "keywords": ["node", "fastify", "mongodb", "anime", "movies", "books", "manga", "api","kdrama"],
     "env": {
         "PORT": {
             "description": "Set PORT for the fastify application to run on.",

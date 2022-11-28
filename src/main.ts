@@ -9,6 +9,7 @@ import manga from './routes/manga';
 import comics from './routes/comics';
 import lightnovels from './routes/light-novels';
 import movies from './routes/movies';
+import kdrama from './routes/kdrama';
 import meta from './routes/meta';
 
 import RapidCloud from './utils/rapid-cloud';
@@ -40,6 +41,7 @@ import M3U8Proxy from './utils/m3u8-proxy';
   //await fastify.register(comics, { prefix: '/comics' });
   await fastify.register(lightnovels, { prefix: '/light-novels' });
   await fastify.register(movies, { prefix: '/movies' });
+  await fastify.register(kdrama, { prefix: '/kdrama' });
   await fastify.register(meta, { prefix: '/meta' });
 
   //await fastify.register(new RapidCloud().returnSID, { prefix: '/utils' });

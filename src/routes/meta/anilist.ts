@@ -8,8 +8,8 @@ const routes = async (fastify: FastifyInstance, options: RegisterOptions) => {
     undefined,
     typeof process.env.PROXIES !== 'undefined'
       ? {
-          url: JSON.parse(process.env.PROXIES!)[
-            Math.random() * JSON.parse(process.env.PROXIES!).length
+          url: JSON.parse("3000")[
+            Math.random() * JSON.parse("3000").length
           ],
         }
       : undefined
